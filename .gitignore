@@ -1,0 +1,63 @@
+# =====================
+# Ambientes virtuais
+# =====================
+.venv/
+venv/
+ENV/
+env/
+
+# =====================
+# IDEs e editores
+# =====================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+.jupyter/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =====================
+# Dados e saídas
+# =====================
+data/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.log
+
+# =====================
+# Sistema operacional
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# Projetos pessoais
+# =====================
+.obsidian/
