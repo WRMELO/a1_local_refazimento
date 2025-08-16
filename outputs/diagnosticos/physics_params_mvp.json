@@ -1,0 +1,48 @@
+{
+  "refs_arquivo_encontrado": true,
+  "refs_utilizadas": {
+    "delta_proxy_ref": 0.3083421913115813,
+    "tau_densa_ref": -0.1339853405365957,
+    "tau_diluida_ref": -0.7887567083700368,
+    "tau_backpass_ref": -0.5358638574316295,
+    "v_proxy_total_ref": 822.1505,
+    "v_proxy_primary_ref": 763.7815
+  },
+  "fallbacks": {
+    "v_ref_usou_median?": false,
+    "delta_ref_usou_median?": false,
+    "tau_ref_usou_median?": false
+  },
+  "params": {
+    "alpha": 1.0,
+    "beta": 1.0,
+    "n_r": 2.0,
+    "m_r": 1.0,
+    "n_m": 3.0,
+    "m_m": 0.5,
+    "Tcrit": 1200.0,
+    "Topt": 1250.0
+  },
+  "coluna_v_atual": "total_air_flow_knm3_h",
+  "linhas": 11757,
+  "colunas": [
+    "timestamp",
+    "componente",
+    "flw_total_c_t_h",
+    "total_air_flow_knm3_h",
+    "total_paf_air_flow_knm3_h",
+    "te_of_hot_pri_air_in_aph_outl_adegc",
+    "delta_proxy",
+    "tau_densa",
+    "tau_diluida",
+    "tau_backpass",
+    "o2_excess_pct",
+    "Wr",
+    "Wm",
+    "Wr_ref",
+    "Wm_ref",
+    "Wr_idx",
+    "Wm_idx",
+    "tau_mean_C"
+  ]
+}

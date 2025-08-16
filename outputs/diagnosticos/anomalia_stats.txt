@@ -1,0 +1,11 @@
+Registros: 11,757
+Features usadas: ['flw_total_c_t_h', 'total_air_flow_knm3_h', 'total_paf_air_flow_knm3_h', 'te_of_hot_pri_air_in_aph_outl_adegc', 'delta_proxy', 'tau_densa', 'tau_diluida', 'tau_backpass', 'o2_excess_pct']
+% anomalias (contamination alvo=3%): 3.00%
+
+Top 5 timestamps mais anômalos (maior score):
+          timestamp  anomalia_score
+2023-07-04 04:00:00        1.000000
+2023-05-31 11:00:00        0.996667
+2023-11-16 19:00:00        0.990161
+2023-05-31 09:00:00        0.954710
+2023-10-11 21:00:00        0.926770
