@@ -1,0 +1,37 @@
+{
+  "janela_usada": {
+    "inicio": "2024-03-04 20:00:00",
+    "fim": "2024-03-12 15:00:00",
+    "fonte": "outputs\\baseline_datasets\\physics_baseline_proxies.csv"
+  },
+  "refs_p5": {
+    "Wr_ref_p5": 11218.414005750048,
+    "Wm_ref_p5": 64086720.957561284
+  },
+  "vazoes_no_periodo": {
+    "ar_coluna": "total_air_flow_knm3_h",
+    "ar_stats": {
+      "count_valid": 188,
+      "p5": 807.745,
+      "median": 822.1505,
+      "p95": 830.59695,
+      "mean": 821.0314946808512,
+      "std": 6.700817680567563,
+      "unit_hint": "kNm³/h"
+    },
+    "carvao_coluna": "flw_total_c_t_h",
+    "carvao_stats": {
+      "count_valid": 188,
+      "p5": 61.6204,
+      "median": 65.37450000000001,
+      "p95": 71.19895,
+      "mean": 65.86998936170214,
+      "std": 2.9245689988036228,
+      "unit_hint": "t/h"
+    }
+  },
+  "arquivos_saida": {
+    "parquet": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\data\\derivadas\\tabela_wr_wm_com_desgaste_p5.parquet",
+    "csv": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\data\\derivadas\\tabela_wr_wm_com_desgaste_p5.csv"
+  }
+}
