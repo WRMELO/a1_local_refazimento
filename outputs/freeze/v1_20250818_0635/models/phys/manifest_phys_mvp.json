@@ -1,0 +1,42 @@
+{
+  "tag": "MVP_PHYSICS",
+  "created_at": "2025-08-18T09:38:40.428463",
+  "freeze_dir": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635",
+  "artifact": "model_phys_mvp.joblib",
+  "y_names": [
+    "wr_kg_m2_h",
+    "wm_kg_m2_h"
+  ],
+  "inputs_expected": [
+    "nu_m_s",
+    "delta_eff_m",
+    "T_gas_K",
+    "mu_gas_Pa_s",
+    "sigma_mat",
+    "rho_fuel_kg_m3",
+    "sigma_steel"
+  ],
+  "defaults": {
+    "sigma_mat": 1.0,
+    "rho_fuel_kg_m3": 1.0,
+    "sigma_steel": 1.0
+  },
+  "formulae": {
+    "Wr": "alpha * (nu^2) * (delta^1) * exp(-T/Tcrit) * (sigma_mat / rho_fuel)",
+    "Wm": "beta  * (nu^3) * sqrt(delta) * exp(-T/Topt) * (sigma_steel / mu_gas)"
+  },
+  "constants": {
+    "alpha": 1.0,
+    "beta": 1.0,
+    "Tcrit": 1400.0,
+    "Topt": 1100.0
+  },
+  "auto_mapping_used": {
+    "T_gas_K": "temp_gas_in_econ_lado_a_saida"
+  },
+  "verification": {
+    "performed": false,
+    "stats": null,
+    "sample_preds": null
+  }
+}

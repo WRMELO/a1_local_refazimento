@@ -1,0 +1,194 @@
+{
+  "tag": "v1_20250818_0635",
+  "generated_at": "2025-08-18T06:35:58.162074",
+  "files": [
+    {
+      "file": "A1_ML_DL_rotulado_v4_gold.csv",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\A1_ML_DL_rotulado_v4_gold.csv",
+      "rows": 10005,
+      "cols": 169,
+      "sample_columns": [
+        "timestamp",
+        "leito_temp_average",
+        "esp_comb_ff_b_saida_temp",
+        "fornalha_leito_temp_10_12",
+        "fornalha_leito_temp_13_15",
+        "fornalha_leito_temp_16_18",
+        "fornalha_leito_temp_1_3",
+        "fornalha_leito_temp_4_6",
+        "fornalha_leito_temp_7_9",
+        "temp_vapor_reaquec_1"
+      ],
+      "sample_dims": [
+        "timestamp",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C"
+      ]
+    },
+    {
+      "file": "A1_ML_DL_features_v4_gold.csv",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\A1_ML_DL_features_v4_gold.csv",
+      "rows": 10005,
+      "cols": 147,
+      "sample_columns": [
+        "timestamp",
+        "esp_comb_ff_b_saida_temp",
+        "fornalha_leito_temp_10_12",
+        "fornalha_leito_temp_13_15",
+        "fornalha_leito_temp_16_18",
+        "fornalha_leito_temp_1_3",
+        "fornalha_leito_temp_4_6",
+        "fornalha_leito_temp_7_9",
+        "temp_vapor_reaquec_1",
+        "lms_pdr_bin_flud_air_htr_temp"
+      ],
+      "sample_dims": [
+        "timestamp",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C"
+      ]
+    },
+    {
+      "file": "A1_ML_DL_rotulado_v4_silver2.csv",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\A1_ML_DL_rotulado_v4_silver2.csv",
+      "rows": 11749,
+      "cols": 169,
+      "sample_columns": [
+        "timestamp",
+        "leito_temp_average",
+        "esp_comb_ff_b_saida_temp",
+        "fornalha_leito_temp_10_12",
+        "fornalha_leito_temp_13_15",
+        "fornalha_leito_temp_16_18",
+        "fornalha_leito_temp_1_3",
+        "fornalha_leito_temp_4_6",
+        "fornalha_leito_temp_7_9",
+        "temp_vapor_reaquec_1"
+      ],
+      "sample_dims": [
+        "timestamp",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C"
+      ]
+    },
+    {
+      "file": "A1_ML_DL_features_v4_silver2.csv",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\A1_ML_DL_features_v4_silver2.csv",
+      "rows": 11749,
+      "cols": 147,
+      "sample_columns": [
+        "timestamp",
+        "esp_comb_ff_b_saida_temp",
+        "fornalha_leito_temp_10_12",
+        "fornalha_leito_temp_13_15",
+        "fornalha_leito_temp_16_18",
+        "fornalha_leito_temp_1_3",
+        "fornalha_leito_temp_4_6",
+        "fornalha_leito_temp_7_9",
+        "temp_vapor_reaquec_1",
+        "lms_pdr_bin_flud_air_htr_temp"
+      ],
+      "sample_dims": [
+        "timestamp",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C"
+      ]
+    },
+    {
+      "file": "A1_ML_DL_rotulado_v4.csv",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\A1_ML_DL_rotulado_v4.csv",
+      "rows": 11757,
+      "cols": 169,
+      "sample_columns": [
+        "timestamp",
+        "leito_temp_average",
+        "esp_comb_ff_b_saida_temp",
+        "fornalha_leito_temp_10_12",
+        "fornalha_leito_temp_13_15",
+        "fornalha_leito_temp_16_18",
+        "fornalha_leito_temp_1_3",
+        "fornalha_leito_temp_4_6",
+        "fornalha_leito_temp_7_9",
+        "temp_vapor_reaquec_1"
+      ],
+      "sample_dims": [
+        "timestamp",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C"
+      ]
+    },
+    {
+      "file": "A1_ML_DL_features_v4.csv",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\A1_ML_DL_features_v4.csv",
+      "rows": 11757,
+      "cols": 147,
+      "sample_columns": [
+        "timestamp",
+        "esp_comb_ff_b_saida_temp",
+        "fornalha_leito_temp_10_12",
+        "fornalha_leito_temp_13_15",
+        "fornalha_leito_temp_16_18",
+        "fornalha_leito_temp_1_3",
+        "fornalha_leito_temp_4_6",
+        "fornalha_leito_temp_7_9",
+        "temp_vapor_reaquec_1",
+        "lms_pdr_bin_flud_air_htr_temp"
+      ],
+      "sample_dims": [
+        "timestamp",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C",
+        "°C"
+      ]
+    },
+    {
+      "file": "gold_relatorio.md",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\gold_relatorio.md"
+    },
+    {
+      "file": "silver2_relatorio.md",
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\silver2_relatorio.md"
+    }
+  ]
+}
