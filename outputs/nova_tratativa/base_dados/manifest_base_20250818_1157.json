@@ -1,0 +1,24 @@
+{
+  "generated_at": "2025-08-18T11:57:31.123181",
+  "input_file": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\data\\curated\\A1_ML_DL_features.csv",
+  "time_column": "timestamp",
+  "rows_total": 11757,
+  "rows_onlyzeros": 109,
+  "rows_nozeros": 11648,
+  "ycols": [
+    "wr_kg_m2_h",
+    "wm_kg_m2_h"
+  ],
+  "time_start_total": "2023-03-01 07:00:00",
+  "time_end_total": "2024-12-27 01:00:00",
+  "files": {
+    "onlyzeros_csv": {
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\nova_tratativa\\base_dados\\A1_ML_DL_features_onlyzeros_20250818_1157.csv",
+      "sha256": "b57dc0abcf0f735b2eee1a6b9865620892000ecce08cf23ab3425baf5073a855"
+    },
+    "nozeros_csv": {
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\nova_tratativa\\base_dados\\A1_ML_DL_features_nozeros_20250818_1157.csv",
+      "sha256": "238267f4fd43651640756917daeb863edbee6977e5bb54f25d718088d20732af"
+    }
+  }
+}

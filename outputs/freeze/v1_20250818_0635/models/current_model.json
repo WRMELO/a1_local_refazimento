@@ -1,0 +1,30 @@
+{
+  "updated_at": "2025-08-18T12:51:52.148877",
+  "model_name": "mvp_rand80",
+  "artifacts": {
+    "model_mvp_nozeros_nonan_rand80_20250818_1207.joblib": {
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\models\\mvp_rand80\\model_mvp_nozeros_nonan_rand80_20250818_1207.joblib",
+      "sha256": "cb82758aeefa56b4c5c05e8a3944afc56237a7f3103b1be32676929defdbe91f"
+    },
+    "metrics_nozeros_nonan_rand80_20250818_1207.csv": {
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\models\\mvp_rand80\\metrics_nozeros_nonan_rand80_20250818_1207.csv",
+      "sha256": "9a8725f9c57911367d7c6f5bf4cef00edc6987a3062abaa48ef9a833157f05e6"
+    },
+    "model_card_nozeros_nonan_rand80_20250818_1207.md": {
+      "path": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635\\models\\mvp_rand80\\model_card_nozeros_nonan_rand80_20250818_1207.md",
+      "sha256": "c2a86f9f2173a03c73b759fe155201ea74eb6f89d18a8b3a6ce53b7a719519ba"
+    }
+  },
+  "freeze_dir": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\freeze\\v1_20250818_0635",
+  "train_dataset": "C:\\Users\\wilso\\MBA_EMPREENDEDORISMO\\3AGD\\A1_LOCAL_REFAZIMENTO\\outputs\\nova_tratativa\\base_dados\\A1_ML_DL_features_nozeros_nonan_20250818_1159.csv",
+  "split": {
+    "type": "random_80_20",
+    "seed": 42,
+    "train": 3708,
+    "test": 928
+  },
+  "targets": [
+    "wr_kg_m2_h",
+    "wm_kg_m2_h"
+  ]
+}
